@@ -1,0 +1,158 @@
+var friendsArray = [{
+    "name":"Mary Poppins",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+  },{
+    "name":"Jack Sparrow",
+    "photo":"https://vignette.wikia.nocookie.net/pirates/images/8/8a/Jack_Sparrow.jpg/revision/latest?cb=20060705091420",
+    "scores":[
+        1,
+        2,
+        1,
+        1,
+        2,
+        1,
+        3,
+        1,
+        1,
+        3
+      ]
+  },{
+    "name":"Darth Vader",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        7,
+        1,
+        2,
+        2,
+        3,
+        1,
+        2,
+        2,
+        2,
+        1
+      ]
+  },{
+    "name":"Maleficent",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        6,
+        2,
+        6,
+        4,
+        9,
+        3,
+        4,
+        5,
+        4,
+        1
+      ]
+  },{
+    "name":"Dug",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },{
+    "name":"Tigger",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        5,
+        5,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5
+      ]
+  },{
+    "name":"Aladdin",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        8,
+        8,
+        8,
+        7,
+        5,
+        4,
+        9,
+        5,
+        4,
+        5      ]
+  },{
+    "name":"Jack Skellington",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        5,
+        9,
+        4,
+        9,
+        5,
+        8,
+        2,
+        7,
+        4,
+        4
+      ]
+  },{
+    "name":"Simba",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        5,
+        8,
+        2,
+        4,
+        8,
+        4,
+        2,
+        5,
+        4,
+        6
+      ]
+  },{
+    "name":"Captain America",
+    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "scores":[
+        5,
+        8,
+        8,
+        8,
+        5,
+        1,
+        2,
+        5,
+        8,
+        1
+      ]
+  }
+];
+
+var userArray = [
+];
+
+
+
+  module.exports = friendsArray;
