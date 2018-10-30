@@ -1,50 +1,3 @@
-// var path = require("path");
-// var friends = require("../app/data/friends");
-
-// module.exports = function(app) {
-//     app.get("/api/friends", function (req, res) {
-//         res.json(friends);
-//     });
-
-
-//     app.post("/api/friends", function (req, res) {
-//     //    res.json(friends);
-//       var newFriendScore = req.body.scores;
-//       var scoresArray = [];
-//       var friendCount = 0;
-//       var bestMatch = 0;
-
-//       for(var i=0; i<friends.length; i++) {
-//           var scoresDiff = 0;
-//           for (var j=0; i<newFriendScore.length; j++) {
-//               scoresDiff += (Math.abs(parseInt(friends[i].scores[j]) - parseInt(newFriendScore) ))
-//           }
-//           scoresArray.push(scoresDiff);
-//       }
-
-//       for (var i=0; i < scoresArray.length; i++) {
-//           if(scoresArray[i] <= scoresArray[bestMatch]) {
-
-//           }
-//       }
-
-//       var bff = friends[bestMatch];
-//       res.json(bff);
-//       friends.push(req.body);
-//     });
-// };
-    //    var userData = req.body;
-    //    var userResponses = userData.scores
-
-    //    for (var i=0; i<friends.length; i++) {
-    //     var sum = 0;
-    //     // console.log("hey the outer object i'm on is " + friends[i])
-    //     for (var j = 0; j<friends[i].scores.length; j++){
-    //     sum += parseInt(friends[i].scores[j]);
-    //   }
-      
-    //   console.log(sum);
-    // }
 
 //     var bestMatch = {
 //         name: "",
@@ -105,13 +58,12 @@ module.exports = function(app){
   });
 
   app.post('/api/friends', function(req,res){
-    //grabs the new friend's scores to compare with friends in friendList array
+    //grabs the users scores and compare with friends in friendList array
     var newFriendScores = req.body.scores;
     var scoresArray = [];
-    var friendCount = 0;
     var bestMatch = 0;
 
-    //runs through all current friends in list
+    //loops through friends array
     for(var i=0; i<friendList.length; i++){
       var scoresDiff = 0;
       //run through scores to compare friends
@@ -131,10 +83,10 @@ module.exports = function(app){
     }
 
     //return bestMatch data
-    var bff = friendList[bestMatch];
-    res.json(bff);
+    var match = friendList[bestMatch];
+    res.json(match);
 
-    //pushes new submission into the friendsList array
+    //pushes user info into the friendsList array
     friendList.push(req.body);
   });
 };

@@ -1,6 +1,6 @@
 var friendsArray = [{
-    "name":"Mary Poppins",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Chompers",
+    "photo":"https://farm1.static.flickr.com/208/495675090_3a63ddedb8.jpg",
     "scores":[
         2,
         2,
@@ -14,8 +14,8 @@ var friendsArray = [{
         2
       ]
   },{
-    "name":"Jack Sparrow",
-    "photo":"https://vignette.wikia.nocookie.net/pirates/images/8/8a/Jack_Sparrow.jpg/revision/latest?cb=20060705091420",
+    "name":"Scooter",
+    "photo":"https://pbs.twimg.com/media/BhP-FerIcAA9ejo.jpg",
     "scores":[
         1,
         2,
@@ -29,8 +29,8 @@ var friendsArray = [{
         3
       ]
   },{
-    "name":"Darth Vader",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Skip",
+    "photo":"http://cdn.earthporm.com/wp-content/uploads/2015/04/funny-animals-licking-glass-4__700.jpg",
     "scores":[
         7,
         1,
@@ -44,8 +44,8 @@ var friendsArray = [{
         1
       ]
   },{
-    "name":"Maleficent",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Myrtle",
+    "photo":"http://wildlifeinsider.com/wp-content/uploads/2016/11/1-monkey.jpg",
     "scores":[
         6,
         2,
@@ -59,8 +59,8 @@ var friendsArray = [{
         1
       ]
   },{
-    "name":"Dug",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Max",
+    "photo":"https://image.shutterstock.com/image-photo/dog-lying-on-grass-silly-260nw-208078561.jpg",
     "scores":[
         5,
         1,
@@ -74,8 +74,8 @@ var friendsArray = [{
         1
       ]
   },{
-    "name":"Tigger",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Steve",
+    "photo":"http://www.animalslook.com/media/these-animals-just-love-to-make-silly-faces-15-pictures/these-animals-just-love-to-make-silly-faces-15-pictures-5.jpg",
     "scores":[
         5,
         5,
@@ -89,8 +89,8 @@ var friendsArray = [{
         5
       ]
   },{
-    "name":"Aladdin",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Carlos",
+    "photo":"http://xxprinsesslovexx.x.x.pic.centerblog.net/y998nkxp.jpg",
     "scores":[
         8,
         8,
@@ -103,8 +103,8 @@ var friendsArray = [{
         4,
         5      ]
   },{
-    "name":"Jack Skellington",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Wilbur",
+    "photo":"https://i.pinimg.com/236x/08/ac/0b/08ac0b6c63304c10d68b46ddca40bd2a.jpg",
     "scores":[
         5,
         9,
@@ -118,8 +118,8 @@ var friendsArray = [{
         4
       ]
   },{
-    "name":"Simba",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Oscar",
+    "photo":"http://www.supiri.com/wp-content/uploads/2009/04/supiri_funny-animals9.jpg",
     "scores":[
         5,
         8,
@@ -133,8 +133,8 @@ var friendsArray = [{
         6
       ]
   },{
-    "name":"Captain America",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Trigger",
+    "photo":"https://www.funoramic.com/wp-content/uploads/2017/10/Funny-Animal-Pictures-of-The-Day-24-Pics-5.jpg",
     "scores":[
         5,
         8,
@@ -149,10 +149,5 @@ var friendsArray = [{
       ]
   }
 ];
-
-var userArray = [
-];
-
-
 
   module.exports = friendsArray;
